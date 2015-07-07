@@ -1,11 +1,12 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
+<?php
+     requiere_once("latch/latch.php");
+     requiere_once("latch/latchresponse.php");
+     requiere_once(latch/error.php");
+     
+     $api = new latch("Td9MC69ZhAWTQvTDyP2y", "EVH7gPspz9K9eCEykMJxiGJQRhYpma99HTbr4CcP"
+     "pairesponse = $api->pair("TOKEN_FROM_LATCH_APP");
+     
+     var_dump($pairresponse);
+?>
 
-.DS_Store
-.classpath
-.project
-.settings/
+
